@@ -21,7 +21,7 @@ Let's understand the difference between imperative programming and reactive prog
     a = 3;
     System.out.println(a);
 ```
-In above example with change in value of a b value not react. It will be 20 and not update when a 
+In above example with change in value of a, b value not react. It will be 20 and not update when a 
 value changes to 3.<br/>
 To achieve this reactive affect on value change of a, b value also change, one option is 
 Observer pattern.
