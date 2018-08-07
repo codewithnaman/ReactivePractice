@@ -13,7 +13,7 @@ A Reactive system has below traits:
 Reactive programming is on the event. We have imperative programming before the reactive. 
 Let's understand the difference between imperative programming and reactive programming by example
 
-* Imperative Programming example:<br/>
+### Imperative Programming example:<br/>
 ```
     int a = 2;
     int b = a*10;
@@ -32,7 +32,7 @@ is not able to consume. There is no mechanism to notify producer to emit the eve
 The ability of the consumer to request items at different rate or when it is ready to process 
 is called as backpressure.
 
-* Reactive programming
+### Reactive programming
 
 In addition to backpressure the reactive programming  also include below three concept.
 1. Non-blocking Programming
@@ -65,6 +65,18 @@ In last point we discussed about disadvantage of asyn programming. To address th
 functional programming approach. Which uses the concept of pure functions, lambada expressions and immutability.Which makes code
 more maintainable, declarative and testable. Java is not really functional language. But Java uses stream APIs or the reactive
 libraries to provide these features.
+
+### Reactive implementation 
+There are different implementation we can use for the reactive programming and can use with Spring WebFlux which support are provided.
+1. Reactor API
+2. RxJava
+3. RxJava 2
+4. Completable Future
+5. Java 9 Flow API
+
+For this we use the Reactor API.
+
+
 
 
 
