@@ -14,7 +14,7 @@ Reactive programming is on the event. We have imperative programming before the 
 Let's understand the difference between imperative programming and reactive programming by example
 
 * Imperative Programming example:<br/>
-```java
+```
     int a = 2;
     int b = a*10;
     System.out.println(b);
