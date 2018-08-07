@@ -39,7 +39,7 @@ In addition to backpressure the reactive programming  also include below three c
 2. Asynchronous Programming
 3. Functional/Declarative Programming
 
-#####1. Non-blocking Programming
+##### 1. Non-blocking Programming
 Blocking is another word for synchronous requests. We use number of block or synchronous calls in 
 use like API calls or database calls, where the thread waits for getting data from system or 
 database. Till now we have single threaded server in which each thread handle a request.
@@ -53,14 +53,14 @@ new event whenever the operation is completed and these threads can carry out th
 
 Servlet 3.1 APIs provides the support for non-blocking server.
 
-#####2. Asynchronous Programming
+##### 2. Asynchronous Programming
 In async programming we execute task in parallel or background and their result is consumed at later point of
 time. This can achieved using callback function or the completable future. But the problem with callbacks is callback
 hell where number of operation nested which is not easy to read and maintain. In javascript to provide this two new keyword
 comes into picture <b>async</b> and <b>await</b>. When we use they looks like functional but they use the asynchronous 
 call. In java we use the Publisher and Subscriber model.
 
-#####3. Functional/Declarative Programming
+##### 3. Functional/Declarative Programming
 In last point we discussed about disadvantage of asyn programming. To address that the reactive libraries provide the
 functional programming approach. Which uses the concept of pure functions, lambada expressions and immutability.Which makes code
 more maintainable, declarative and testable. Java is not really functional language. But Java uses stream APIs or the reactive
