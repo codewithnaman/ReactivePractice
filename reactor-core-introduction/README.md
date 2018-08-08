@@ -1,4 +1,4 @@
-#Introduction to Project Reactor
+# Introduction to Project Reactor
 We willl conver below in this module:
 
 * Reactive Interfaces (Reactive Stream specification)
@@ -56,7 +56,7 @@ public interface Subscription{
 
 This can be consumer or subscriber both at a point of time or either of one.
 
-###How Interface work together
+### How Interface work together
 First the subscriber call subscribe method on publisher, then a subscription object is created
 and then onSubscribe method on subscribe is called with the subscription object created. To start receiving element
 or event subscriber need to call the request method of subscription indicating how many elements it can process. If
@@ -67,7 +67,7 @@ onComplete method is called and subscription will be cancelled. When any error o
 is called and subscription is cancelled. 
 
 
-##Project Reactor
+##P roject Reactor
 Project reactor provides by default support for spring reactive framework, we can use other reactive frameworks as well 
 by providing in reactive adapter registry.
 
@@ -81,18 +81,18 @@ with respect to number or requested items.
 
 Reactor provide below subscription methods:
 ```java
-subscribe()
+public void subscribe()
 
-subscribe(Consumer<? super T> consumer)
+public void subscribe(Consumer<? super T> consumer)
 
-subscribe(Consumer<? super T> consumer,
+public void subscribe(Consumer<? super T> consumer,
           Consumer<? super Throwable> errorConsumer)
   
-subscribe(Consumer<? super T> consumer,
+public void subscribe(Consumer<? super T> consumer,
           Consumer<? super Throwable> errorConsumer,
           Runnable completeConsumer)
               
-subscribe(Consumer<? super T> consumer,
+public void subscribe(Consumer<? super T> consumer,
           Consumer<? super Throwable> errorConsumer,
           Runnable completeConsumer,
           Consumer<? super Subscription> subscriptionConsumer)              
