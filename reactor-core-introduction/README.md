@@ -67,7 +67,7 @@ onComplete method is called and subscription will be cancelled. When any error o
 is called and subscription is cancelled. 
 
 
-##P roject Reactor
+## Project Reactor
 Project reactor provides by default support for spring reactive framework, we can use other reactive frameworks as well 
 by providing in reactive adapter registry.
 
