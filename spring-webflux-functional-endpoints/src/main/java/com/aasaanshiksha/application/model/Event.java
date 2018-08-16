@@ -1,4 +1,4 @@
-package com.assaanshiksha.application.controller;
+package com.aasaanshiksha.application.model;
 
 public class Event {
 

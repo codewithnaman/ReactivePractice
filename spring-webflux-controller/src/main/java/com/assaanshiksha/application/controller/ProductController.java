@@ -1,5 +1,6 @@
 package com.assaanshiksha.application.controller;
 
+import com.assaanshiksha.application.model.Event;
 import com.assaanshiksha.application.model.Product;
 import com.assaanshiksha.application.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;

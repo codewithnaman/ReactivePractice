@@ -18,6 +18,7 @@ response. Reactive types also have below support as well
 
 ## Hands On exercise 
 For Experimenting this we will try to build below APIs using reactive programming(Mono, Flux).
+
 We have a product catalog for which we need to expose below type of APIs
 1. Get all products (endpoint : "/products", Method : GET)
 2. Get a specific product (endpoint : "/product/{id}", Method : GET)
