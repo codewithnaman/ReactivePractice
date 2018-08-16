@@ -29,4 +29,5 @@ for libraries which gives the reactive support to our application.
 1. First we build the Mongo model object (Product.java).
 2. Then Build repository of product class using ReactiveMongoRepository which is reactive implementation for mongoDB (ProductRepository.java)
 3. Then we initialize some sample data using either CommandLineRunner or ApplicationRunner (SpringWebfluxFunctionalEndpointsApplication.java)
-4. 
+4. Create handler class (ProductHandler.java)
+5. Create routes in mail class (SpringWebfluxFunctionalEndpointsApplication.java). Two approaches are their to define route (routes and nest)
