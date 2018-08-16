@@ -76,6 +76,15 @@ There are different implementation we can use for the reactive programming and c
 
 For this we use the Reactor API.
 
+## Reference and FAQ
+1. What is difference in Spring MVC and Spring WebFlux?<br/>
+They both use almost similar syntax apart from returning type and handling the request processing.
+
+2. What we can achieve by using Spring Webflux instead of Spring MVC?<br/>
+We get a much better performance in case of Spring WebFlux(Event base processing) as compare to Spring MVC(1 request/thread model).<br/>
+Ref : a. https://dzone.com/articles/raw-performance-numbers-spring-boot-2-webflux-vs-s<br/>
+      b. https://medium.com/@the.raj.saxena/springboot-2-performance-servlet-stack-vs-webflux-reactive-stack-528ad5e9dadc
+
 
 
 
