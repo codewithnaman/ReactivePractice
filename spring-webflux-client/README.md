@@ -84,7 +84,7 @@ If we are consuming MutiPart request then we use BodyInserters.fromMultiPartData
    
    We have two methods to calling API retrieve and exchange.
    
-#Common Gotchas
+# Common Gotchas
 We had initially use main method directly without Spring Boot, then We have to put Thread.sleep(5000) in main method,
 because when main thread exit the request processing threads also stopped.
 <br/>Also after putting sleep in main method the event request will not work and throw illegal argument exception, because 
